@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>PET Shop</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div>
+	<h1 id="cab-cont-dir">Inserir Cliente</h1>
+
+	<form action="ins_cliente.php" method="post">
+		<div class="form-group">
+		<label class="badge badge-primary">Nome</label>
+		<input type="text" name="campo_nome" id="cmpNm" class="form-control">
+		
+		<label class="badge badge-primary">Sobrenome</label>
+		<input type="text" name="campo_sobrenome" id="cmpSn" class="form-control">
+
+		<label class="badge badge-primary">CPF</label>
+		<input type="text" name="campo_cpf" id="cmpCPF" class="form-control">
+
+		<label class="badge badge-primary">Endereço</label>
+		<input type="text" name="campo_endereco" id="cmpEnd" class="form-control">
+
+		<label class="badge badge-primary">Telefone</label>
+		<input type="text" name="campo_telefone" id="cmpTlf" class="form-control">
+
+		<label class="badge badge-primary">E-mail</label>
+		<input type="text" name="campo_email" id="cmpEml" class="form-control">
+
+		<input class="btn btn-primary" type="submit" value="Salvar" id="btn-salvar">
+		</div>
+		
+	</form>
+</div>
+
+</body>
+</html>

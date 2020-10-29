@@ -1,0 +1,118 @@
+/*Geral*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #fff;
+}
+
+a:hover {
+	color: #3d3322; /*Não me lembro o que é!!!*/
+}
+
+a:visited {
+	color: white;
+}
+
+a:visite:hover {
+	color: #3d3322;
+}
+
+/*Div Conteúdo geral*/
+
+#conteudo {
+	width: 80vw;
+	height: 98vh;
+	margin: auto auto;
+}
+
+/*Div banner*/
+#banner {
+	width: 80vw;
+	height: 20vh;
+	background-color: #3d3322;
+	float: left;
+}
+
+h1 {
+	font-size: 30pt;
+	/*font-weight: lighter;*/
+	font-family: 'Fredoka One', cursive;
+}
+
+img {
+	margin: 5px;
+	float: left;
+}
+
+/*Div menu-lateral-esquedo*/
+#menu-lateral-esquedo {
+	width: 20vw;
+	height: 70vh;
+	background-color: #827c72;
+	float: left;
+}
+
+ul {
+	margin: 10px;
+}
+
+li {
+	padding: 5px;
+}
+
+/*Div conteudo-direita*/
+#conteudo-direita {
+	width: 60vw;
+	height: 70vh;
+	background-color: #607D8B;
+	float: right;
+}
+
+/*input[type="submit"] {
+	color: #fff;
+}*/
+
+label {
+	margin-left: 15px;
+}
+
+.form-control {
+	width: 80%;
+	margin-left: 10px;
+}
+
+#btn-salvar {
+	margin: 10px;
+}
+
+#cab-cont-dir {
+	text-align: center;
+}
+
+
+/*Div rodape*/
+#rodape {
+	width: 80vw;
+	height: 8vh;
+	background-color: #212121;
+	float: right;
+}
+
+#rodape > p {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 10pt;
+}
+
